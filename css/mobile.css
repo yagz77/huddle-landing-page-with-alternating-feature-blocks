@@ -1,0 +1,54 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem;
+}
+#navbar img {
+  width: 135px;
+  height: 24px;
+}
+#navbar button {
+  width: 150px;
+  height: 30px;
+}
+#top-content img {
+  width: 75%;
+  height: 90%;
+  position: relative;
+  bottom: -60px;
+}
+#center-top-content {
+  width: 85%;
+  min-height: 350px;
+
+  margin-top: 9.25rem;
+  display: flex;
+}
+#center-top-content div {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+
+  width: 0%;
+  text-align: center;
+  padding: 40px;
+  align-items: center;
+}
+#footer {
+  width: 100%;
+  height: 920px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+#footer-icon {
+  display: flex;
+  gap: 0px;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20%;
+}
